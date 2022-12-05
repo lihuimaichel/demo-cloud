@@ -1,0 +1,27 @@
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://192.168.1.108:3306/demo_cloud
+#    username: root
+#    password: '123456'
+#  zipkin:
+#    base-url: http://192.168.1.108:9411
+#    discovery-client-enabled: false
+#  sleuth:
+#    sampler:
+#      probability: 1.0
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 192.168.1.108:8849
+#    sentinel:
+#      transport:
+#        dashboard: 192.168.1.108:8858
+#        port: 10000
+#feign:
+#  sentinel:
+#    enabled: true
+#mybatis:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#    map-underscore-to-camel-case: true

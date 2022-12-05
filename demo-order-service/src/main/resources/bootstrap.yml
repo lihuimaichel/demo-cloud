@@ -1,0 +1,13 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: demo-order-service
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.1.108:8849
+        file-extension: yaml
+  profiles:
+    active: dev

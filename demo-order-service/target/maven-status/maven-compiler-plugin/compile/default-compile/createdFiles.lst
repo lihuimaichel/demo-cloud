@@ -1,0 +1,8 @@
+org\example\videoservice\fallback\DemoVideoServiceFallback.class
+org\example\mapper\VideoOrderMapper.class
+org\example\service\impl\VideoOrderServiceImpl.class
+org\example\config\DemoCustomerBlockHandler.class
+org\example\controller\VideoOrderController.class
+org\example\service\VideoOrderService.class
+org\example\videoservice\DemoVideoService.class
+org\example\OrderApplication.class

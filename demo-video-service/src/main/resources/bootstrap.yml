@@ -1,0 +1,13 @@
+server:
+  port: 8003
+
+spring:
+  application:
+    name: demo-video-service
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.1.108:8849
+        file-extension: yaml
+  profiles:
+    active: dev

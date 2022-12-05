@@ -1,0 +1,5 @@
+org\example\controller\VideoController.class
+org\example\VideoApplication.class
+org\example\mapper\VideoMapper.class
+org\example\service\VideoService.class
+org\example\service\impl\VideoServiceImpl.class
